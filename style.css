@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", cursive;
+}
+body{
+    background:lightblue;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 700px;
+    padding: 50px;
+    align-self: center;
+}
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container >.row{
+
+    width: 100%;
+    justify-content: space-evenly;
+}
+.profile-icon{
+    border-radius: 50%;
+    border-color: white;
+    border: 2px solid bisque;
+}
+.name{
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+.score{
+    font-size: xx-large;
+}
+.score > span{
+    margin:0 5px;
+}
+.round-runs{
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#strike-button{
+    border:none;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #c02425,#f0cb35);
+    font-size: large;
+    width: 300px;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    outline:none;
+}
+
+#strike-button:hover{
+    box-shadow: 0 0 10px 0 black;
+}
+#result{
+    margin-top: 50px;
+    border-radius: 90px;
+    background: linear-gradient(90deg,#4CBB17,#FFFF00);
+    background-clip: text;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #9127ef;
+/* universal
+class
+id
+element */
+/* *{
+    margin:0;
+} */
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    background: white;
+    display: flex;
+    width: 700px;
+    height: 400px;
+    padding: 50px;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 20px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container >.row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+.pic{
+    border-radius: 50%;
+    border:2px solid salmon;
+}
+.name{
+    font-size: x-large;
+    font-weight: bold;
+}
+.score{
+    font-size: xx-large;
+}
+
+.runs{
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+#strikebutton{
+    background-color: blueviolet;
+    font-size: larger;
+    width:300px;
+    height:150 px;
+    color:white;
+    margin-top: 50px;
+    /* margin-bottom: -50px; */
+    border-radius: 25px;
+    outline: none;
+}
+
+#result{
+    font-size: xx-large;
+    color: white;
+    background: linear-gradient(to right,blue,violet);
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+}
